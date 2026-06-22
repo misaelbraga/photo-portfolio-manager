@@ -12,6 +12,11 @@ venv/
 # Azure Functions local settings
 backend/local.settings.json
 
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+
 # Misc
 .DS_Store
 .idea/
